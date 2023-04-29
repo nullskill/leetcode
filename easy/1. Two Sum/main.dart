@@ -1,4 +1,4 @@
-/// Here is the way to solve this problem with O(n) complexity:
+/// Here is the way to solve this problem with `O(n)` complexity:
 /// 1. Create an empty Map.
 /// 2. Loop through each element in the array.
 /// 3. For each element, calculate the difference between the target and the current element.
@@ -31,4 +31,4 @@ void main(List<String> args) {
 }
 
 /// NB: The other possible solution yet not optimized is brute force of the given input array,
-/// thus it is of O(n^2) complexity by time.
+/// thus it is of `O(n^2)` complexity by time.
