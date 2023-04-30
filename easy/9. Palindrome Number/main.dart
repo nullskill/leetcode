@@ -9,7 +9,7 @@
 /// From right to left, it becomes 121-. Therefore it is not a palindrome.
 /// If we call `isPalindrome(10)`, it will return false because it reads 01 from right to left.
 /// Therefore it is not a palindrome.
-/// The time complexity of the function is `O(log10(x))`
+/// The time complexity of the function is `O(log10(x))`.
 
 class Solution {
   bool isPalindrome(int x) {
