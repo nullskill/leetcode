@@ -5,17 +5,7 @@
 // and moves the pointer of that list to the next node.
 // Finally, it returns the merged list.
 
-class ListNode {
-  int val;
-  ListNode? next;
-
-  ListNode([this.val = 0, this.next]);
-
-  @override
-  String toString() {
-    return '$val${next == null ? '' : ', $next'}';
-  }
-}
+import '../../structure/list_node.dart';
 
 /**
  * Definition for singly-linked list.
