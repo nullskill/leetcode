@@ -24,7 +24,7 @@ class ListNode {
   bool operator ==(Object other) {
     if (identical(this, other)) return true;
 
-    return other is ListNode && other.val == val;
+    return other is ListNode && other.val == val && other.next == next;
   }
 
   @override
