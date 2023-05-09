@@ -28,5 +28,5 @@ void main() {
     test('f("MMMCMXCIX")', () {
       expect(f('MMMCMXCIX'), 3999);
     });
-  }); // group 'two_sum'
+  }); // group 'roman_to_integer'
 }

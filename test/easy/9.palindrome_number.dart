@@ -32,5 +32,5 @@ void main() {
     test('f(-231)', () {
       expect(f(-231), false);
     });
-  }); // group 'two_sum'
+  }); // group 'palindrome_number'
 }

@@ -24,5 +24,5 @@ void main() {
     test('f(["submission", "subtraction", "substitution", "synchronization"])', () {
       expect(f(['submission', 'subtraction', 'substitution', 'synchronization']), 's');
     });
-  }); // group 'two_sum'
+  }); // group 'longest_common_prefix'
 }

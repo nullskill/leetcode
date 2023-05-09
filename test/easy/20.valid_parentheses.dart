@@ -36,5 +36,5 @@ void main() {
     test('f("([{}(){}])")', () {
       expect(f('([{}(){}])'), true);
     });
-  }); // group 'two_sum'
+  }); // group 'valid_parentheses'
 }
