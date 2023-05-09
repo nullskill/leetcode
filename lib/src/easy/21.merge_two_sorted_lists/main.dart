@@ -42,8 +42,8 @@ class Solution {
 }
 
 void main(List<String> args) {
-  final l1 = ListNode(1, ListNode(2, ListNode(4)));
-  final l2 = ListNode(1, ListNode(3, ListNode(4)));
+  final l1 = ListNode.of([1, 2, 4]);
+  final l2 = ListNode.of([1, 3, 4]);
 
   final result = Solution().mergeTwoLists(l1, l2);
 
