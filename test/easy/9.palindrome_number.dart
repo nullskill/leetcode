@@ -2,7 +2,7 @@ import 'package:leetcode/src/easy/9.palindrome_number/main.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('two_sum', () {
+  group('palindrome_number', () {
     final f = Solution().isPalindrome;
 
     test('f(0)', () {
