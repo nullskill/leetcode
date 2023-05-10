@@ -11,6 +11,7 @@ import 'easy/28.find_the_index_of_the_first_occurrence_in_a_string.test.dart'
     as find_the_index_of_the_first_occurrence_in_a_string;
 import 'easy/35.search_insert_position.test.dart' as search_insert_position;
 import 'easy/58.length_of_last_word.test.dart' as length_of_last_word;
+import 'easy/66.plus_one.test.dart' as plus_one;
 import 'easy/9.palindrome_number.test.dart' as palindrome_number;
 
 void main() {
@@ -26,5 +27,6 @@ void main() {
     find_the_index_of_the_first_occurrence_in_a_string.main();
     search_insert_position.main();
     length_of_last_word.main();
+    plus_one.main();
   });
 }
