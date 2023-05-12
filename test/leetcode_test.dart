@@ -13,6 +13,7 @@ import 'easy/35.search_insert_position.test.dart' as search_insert_position;
 import 'easy/58.length_of_last_word.test.dart' as length_of_last_word;
 import 'easy/66.plus_one.test.dart' as plus_one;
 import 'easy/67.add_binary.test.dart' as add_binary;
+import 'easy/69.sqrt_x.test.dart' as sqrt_x;
 import 'easy/9.palindrome_number.test.dart' as palindrome_number;
 
 void main() {
@@ -30,5 +31,6 @@ void main() {
     length_of_last_word.main();
     plus_one.main();
     add_binary.main();
+    sqrt_x.main();
   });
 }
