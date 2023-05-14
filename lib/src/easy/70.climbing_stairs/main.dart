@@ -1,4 +1,4 @@
-/// The problem solved dynamic programming.
+/// The problem solved using dynamic programming.
 /// The solution has a time complexity of `O(n)`
 
 class Solution {
