@@ -15,6 +15,7 @@ import 'easy/66.plus_one.test.dart' as plus_one;
 import 'easy/67.add_binary.test.dart' as add_binary;
 import 'easy/69.sqrt_x.test.dart' as sqrt_x;
 import 'easy/70.climbing_stairs.test.dart' as climbing_stairs;
+import 'easy/83.remove_duplicates_from_sorted_list.test.dart' as remove_duplicates_from_sorted_list;
 import 'easy/9.palindrome_number.test.dart' as palindrome_number;
 
 void main() {
@@ -34,5 +35,6 @@ void main() {
     add_binary.main();
     sqrt_x.main();
     climbing_stairs.main();
+    remove_duplicates_from_sorted_list.main();
   });
 }
