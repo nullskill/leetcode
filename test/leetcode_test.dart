@@ -18,6 +18,7 @@ import 'easy/70.climbing_stairs.test.dart' as climbing_stairs;
 import 'easy/83.remove_duplicates_from_sorted_list.test.dart' as remove_duplicates_from_sorted_list;
 import 'easy/88.merge_sorted_array.test.dart' as merge_sorted_array;
 import 'easy/9.palindrome_number.test.dart' as palindrome_number;
+import 'easy/94.binary_tree_inorder_traversal.test.dart' as binary_tree_inorder_traversal;
 
 void main() {
   group('solution', () {
@@ -38,5 +39,6 @@ void main() {
     climbing_stairs.main();
     remove_duplicates_from_sorted_list.main();
     merge_sorted_array.main();
+    binary_tree_inorder_traversal.main();
   });
 }
