@@ -1,6 +1,7 @@
 import 'package:test/test.dart';
 
 import 'easy/1.two_sum.test.dart' as two_sum;
+import 'easy/100.same_tree.test.dart' as same_tree;
 import 'easy/13.roman_to_integer.test.dart' as roman_to_integer;
 import 'easy/14.longest_common_prefix.test.dart' as longest_common_prefix;
 import 'easy/20.valid_parentheses.test.dart' as valid_parentheses;
@@ -21,7 +22,7 @@ import 'easy/9.palindrome_number.test.dart' as palindrome_number;
 import 'easy/94.binary_tree_inorder_traversal.test.dart' as binary_tree_inorder_traversal;
 
 void main() {
-  group('solution', () {
+  group('Solution', () {
     two_sum.main();
     palindrome_number.main();
     roman_to_integer.main();
@@ -40,5 +41,6 @@ void main() {
     remove_duplicates_from_sorted_list.main();
     merge_sorted_array.main();
     binary_tree_inorder_traversal.main();
+    same_tree.main();
   });
 }
