@@ -2,6 +2,7 @@ import 'package:test/test.dart';
 
 import 'easy/1.two_sum.test.dart' as two_sum;
 import 'easy/100.same_tree.test.dart' as same_tree;
+import 'easy/125.valid_palindrome.test.dart' as valid_palindrome;
 import 'easy/13.roman_to_integer.test.dart' as roman_to_integer;
 import 'easy/14.longest_common_prefix.test.dart' as longest_common_prefix;
 import 'easy/20.valid_parentheses.test.dart' as valid_parentheses;
@@ -42,5 +43,6 @@ void main() {
     merge_sorted_array.main();
     binary_tree_inorder_traversal.main();
     same_tree.main();
+    valid_palindrome.main();
   });
 }
