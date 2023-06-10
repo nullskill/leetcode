@@ -1,5 +1,7 @@
 /// The algorithm uses `for` loop to iterate through each character of the strings,
-/// so the time complexity is `O(n)`. In each iteration of the loop, we compare the characters
+/// so the time complexity is `S * n`, where `S` is the length of the longest common prefix
+/// and `n` is the number of strings in the list.
+/// In each iteration of the loop, we compare the characters
 /// of the strings at the same position until there is a mismatch or one of the strings ends.
 /// We then update the prefix to the common characters and continue to the next string.
 /// If at any point the prefix becomes empty, we know that there is no common prefix and return an empty string.
@@ -25,8 +27,3 @@ void main(List<String> args) {
 
   print(result);
 }
-
-/// NB: Despite the algorithm has nested `while` loop, 
-/// but the number of iterations is still proportional to the length of the input strings, 
-/// so the overall time complexity is still `O(n)`, where `n` is the total number of characters in all strings.
-
