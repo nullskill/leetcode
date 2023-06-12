@@ -34,7 +34,7 @@ void main(List<String> args) {
   print(result);
 }
 
-/// NB: This solution is `O(n)` because it iterates over each character in haystack exactly once. 
-/// The worst-case scenario is when the first character in needle matches the last character in haystack, 
-/// which means that the inner loop will run needle.length times for each iteration of the outer loop. 
-/// Therefore, the time complexity is `O(n)`.
+/// NB: This solution is `O(mn)`, where `m` is the length of the input haystack 
+/// and `n` is the length of the input needle. 
+/// The worst-case scenario is when the haystack and needle are of equal length, 
+/// which makes the time complexity quadratic.
