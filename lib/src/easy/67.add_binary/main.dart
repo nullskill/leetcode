@@ -3,7 +3,8 @@
 /// If the sum of two digits is greater than 1, then we need to carry over
 /// the 1 to the next digit.
 /// We use a StringBuffer to store the result and then return it as a string.
-/// The complexity is `O(n)`, where `n` is the length of the longer string.
+/// The complexity is `O(max(L1, L2))`, where `L1` and `L2` are the lengths
+/// of strings `a` and `b` respectively
 
 class Solution {
   String addBinary(String a, String b) {
