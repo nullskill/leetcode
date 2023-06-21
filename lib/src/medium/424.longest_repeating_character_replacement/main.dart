@@ -43,5 +43,5 @@ class Solution {
 }
 
 void main(List<String> args) {
-  print(Solution().characterReplacement('AABABBA', 1));
+  print(Solution().characterReplacement('AAAA', 2));
 }
