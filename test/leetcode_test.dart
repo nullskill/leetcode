@@ -22,6 +22,7 @@ import 'easy/88.merge_sorted_array.test.dart' as merge_sorted_array;
 import 'easy/9.palindrome_number.test.dart' as palindrome_number;
 import 'easy/94.binary_tree_inorder_traversal.test.dart' as binary_tree_inorder_traversal;
 import 'medium/424.longest_repeating_character_replacement.test.dart' as longest_repeating_character_replacement;
+import 'medium/912.sort_an_array.test.dart' as sort_an_array;
 
 void main() {
   group('Solution', () {
@@ -46,5 +47,6 @@ void main() {
     same_tree.main();
     valid_palindrome.main();
     longest_repeating_character_replacement.main();
+    sort_an_array.main();
   });
 }
