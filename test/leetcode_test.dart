@@ -3,6 +3,8 @@ import 'package:test/test.dart';
 import 'easy/1.two_sum.test.dart' as two_sum;
 import 'easy/100.same_tree.test.dart' as same_tree;
 import 'easy/125.valid_palindrome.test.dart' as valid_palindrome;
+import 'easy/1287.element_appearing_more_than_25%_in_sorted_array.test.dart'
+    as element_appearing_more_than_25_percent_in_sorted_array;
 import 'easy/13.roman_to_integer.test.dart' as roman_to_integer;
 import 'easy/14.longest_common_prefix.test.dart' as longest_common_prefix;
 import 'easy/20.valid_parentheses.test.dart' as valid_parentheses;
@@ -51,5 +53,6 @@ void main() {
     longest_substring_without_repeating_characters.main();
     longest_repeating_character_replacement.main();
     sort_an_array.main();
+    element_appearing_more_than_25_percent_in_sorted_array.main();
   });
 }
