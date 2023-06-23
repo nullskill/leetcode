@@ -9,6 +9,7 @@ import 'easy/13.roman_to_integer.test.dart' as roman_to_integer;
 import 'easy/14.longest_common_prefix.test.dart' as longest_common_prefix;
 import 'easy/20.valid_parentheses.test.dart' as valid_parentheses;
 import 'easy/21.merge_two_sorted_lists.test.dart' as merge_two_sorted_lists;
+import 'easy/242.valid_anagram.test.dart' as valid_anagram;
 import 'easy/26.remove_duplicates_from_sorted_array.test.dart' as remove_duplicates_from_sorted_array;
 import 'easy/27.remove_element.test.dart' as remove_element;
 import 'easy/28.find_the_index_of_the_first_occurrence_in_a_string.test.dart'
@@ -54,5 +55,6 @@ void main() {
     longest_repeating_character_replacement.main();
     sort_an_array.main();
     element_appearing_more_than_25_percent_in_sorted_array.main();
+    valid_anagram.main();
   });
 }
