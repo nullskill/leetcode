@@ -27,6 +27,7 @@ import 'easy/94.binary_tree_inorder_traversal.test.dart' as binary_tree_inorder_
 import 'medium/3.longest_substring_without_repeating_characters.test.dart'
     as longest_substring_without_repeating_characters;
 import 'medium/424.longest_repeating_character_replacement.test.dart' as longest_repeating_character_replacement;
+import 'medium/49.group_anagrams.test.dart' as group_anagrams;
 import 'medium/912.sort_an_array.test.dart' as sort_an_array;
 
 void main() {
@@ -56,5 +57,6 @@ void main() {
     sort_an_array.main();
     element_appearing_more_than_25_percent_in_sorted_array.main();
     valid_anagram.main();
+    group_anagrams.main();
   });
 }
