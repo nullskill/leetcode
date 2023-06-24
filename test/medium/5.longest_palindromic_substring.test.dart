@@ -18,8 +18,13 @@ void main() {
       expect(f('cbbd'), equals('bb'));
     });
 
-    test('returns input string for input with no palindromes', () {
-      expect(f('abc'), anyOf(equals('a'), equals('b'), equals('c')));
+    test('returns longest palindromic substring for alphanumeric input', () {
+      expect(f('a1b2c3d3c2b1a'), equals('a1b2c3d3c2b1a'));
+      expect(f('racecar12321'), equals('racecar'));
+    });
+
+    test('returns input string for alphanumeric input with no palindromes', () {
+      expect(f('abc123'), anyOf(equals('a'), equals('b'), equals('c'), equals('1'), equals('2'), equals('3')));
     });
   }); // group 'longest_palindromic_substring'
 }
