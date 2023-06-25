@@ -17,14 +17,17 @@ class Solution {
   int countPalindromes(String s, int left, int right) {
     int count = 0;
     while (left >= 0 && right < s.length && s[left] == s[right]) {
+      // print(s.substring(left, right + 1));
+
       count++;
       left--;
       right++;
     }
+
     return count;
   }
 }
 
 void main(List<String> args) {
-  print(Solution().countSubstrings('aaa'));
+  print(Solution().countSubstrings('racecar'));
 }
