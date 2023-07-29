@@ -1,3 +1,10 @@
+/// The time complexity of the function is `O(n)`,
+/// where `n` is the length of the input string.
+/// The function also handles edge cases such as
+/// leading/trailing whitespace, signs, and overflow.
+/// The space used is constant and does not depend
+/// on the length of the input string.
+
 class Solution {
   int myAtoi(String s) {
     s = s.trim();
