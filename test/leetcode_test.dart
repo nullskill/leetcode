@@ -30,6 +30,7 @@ import 'medium/424.longest_repeating_character_replacement.test.dart' as longest
 import 'medium/49.group_anagrams.test.dart' as group_anagrams;
 import 'medium/5.longest_palindromic_substring.test.dart' as longest_palindromic_substring;
 import 'medium/516.longest_palindromic_subsequence.test.dart' as longest_palindromic_subsequence;
+import 'medium/560.subarray_sum_equals_k.test.dart' as subarray_sum_equals_k;
 import 'medium/647.palindromic_substrings.test.dart' as palindromic_substrings;
 import 'medium/8.string_to_integer_atoi.test.dart' as string_to_integer_atoi;
 import 'medium/912.sort_an_array.test.dart' as sort_an_array;
@@ -66,5 +67,6 @@ void main() {
     palindromic_substrings.main();
     longest_palindromic_subsequence.main();
     string_to_integer_atoi.main();
+    subarray_sum_equals_k.main();
   });
 }
