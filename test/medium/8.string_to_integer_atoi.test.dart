@@ -2,7 +2,7 @@ import 'package:leetcode/src/medium/8.string_to_integer_atoi/main.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('longest_palindromic_substring', () {
+  group('string_to_integer_atoi', () {
     final f = Solution().myAtoi;
 
     test('f("")', () {
@@ -40,5 +40,5 @@ void main() {
     test('f("+4193 with words")', () {
       expect(f('+4193 with words'), equals(4193));
     });
-  }); // group 'longest_palindromic_substring'
+  }); // group 'string_to_integer_atoi'
 }
