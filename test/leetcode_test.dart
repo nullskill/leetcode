@@ -24,6 +24,7 @@ import 'easy/83.remove_duplicates_from_sorted_list.test.dart' as remove_duplicat
 import 'easy/88.merge_sorted_array.test.dart' as merge_sorted_array;
 import 'easy/9.palindrome_number.test.dart' as palindrome_number;
 import 'easy/94.binary_tree_inorder_traversal.test.dart' as binary_tree_inorder_traversal;
+import 'medium/22.generate_parentheses.test.dart' as generate_parentheses;
 import 'medium/3.longest_substring_without_repeating_characters.test.dart'
     as longest_substring_without_repeating_characters;
 import 'medium/424.longest_repeating_character_replacement.test.dart' as longest_repeating_character_replacement;
@@ -68,5 +69,6 @@ void main() {
     longest_palindromic_subsequence.main();
     string_to_integer_atoi.main();
     subarray_sum_equals_k.main();
+    generate_parentheses.main();
   });
 }
