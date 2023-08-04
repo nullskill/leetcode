@@ -1,4 +1,9 @@
-/// The time and space complexity of this code is `O(4^n / √n)`
+/// The average time and space complexity of this code is `O(4^n / √n)`.
+/// This is because we have `2^n` left bracket and `2^(n-1)` right bracket
+/// combinations. Here we get `2^n x 2^(n-1) = 4^n`.
+/// There are also `√n` invalid combinations with right bracket 
+/// on the left position and left bracket on the right position.
+/// That's why we have to divide `4^n` by `√n`.
 
 class Solution {
   List<String> generateParenthesis(int n) {
