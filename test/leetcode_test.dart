@@ -35,6 +35,8 @@ import 'medium/560.subarray_sum_equals_k.test.dart' as subarray_sum_equals_k;
 import 'medium/647.palindromic_substrings.test.dart' as palindromic_substrings;
 import 'medium/8.string_to_integer_atoi.test.dart' as string_to_integer_atoi;
 import 'medium/912.sort_an_array.test.dart' as sort_an_array;
+import 'medium/131.palindrome_partitioning.test.dart' as palindrome_partitioning;
+
 
 void main() {
   group('Solution', () {
@@ -70,5 +72,6 @@ void main() {
     string_to_integer_atoi.main();
     subarray_sum_equals_k.main();
     generate_parentheses.main();
+    palindrome_partitioning.main();
   });
 }
