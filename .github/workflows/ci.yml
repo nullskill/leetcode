@@ -29,10 +29,10 @@ jobs:
       uses: actions/checkout@v2
 
     - name: 🚃 Cache pub modules
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       env:
         cache-name: cache-leetcode-pub
-        with:
+      with:
         path: |
             $PWD/.pub_cache/
         key: ${{ runner.os }}-leetcode
@@ -48,7 +48,7 @@ jobs:
       timeout-minutes: 1
       run: dart format --set-exit-if-changed -l 120 -o none .
 
-    - name: 📈 Check analyzer
+    - name: 📈 Analyze code
       timeout-minutes: 1  
       run: dart analyze --fatal-infos --fatal-warnings lib
 
