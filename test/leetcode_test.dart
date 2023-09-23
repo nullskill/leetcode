@@ -12,7 +12,7 @@ import 'easy/21.merge_two_sorted_lists.test.dart' as merge_two_sorted_lists;
 import 'easy/242.valid_anagram.test.dart' as valid_anagram;
 import 'easy/26.remove_duplicates_from_sorted_array.test.dart' as remove_duplicates_from_sorted_array;
 import 'easy/27.remove_element.test.dart' as remove_element;
-import 'easy/28.find_the_index_of_the_first_occurrence_in_a_string.test.dart'
+import 'easy/28.find_index_of_first_occurrence_in_string.test.dart'
     as find_the_index_of_the_first_occurrence_in_a_string;
 import 'easy/35.search_insert_position.test.dart' as search_insert_position;
 import 'easy/58.length_of_last_word.test.dart' as length_of_last_word;
@@ -24,6 +24,7 @@ import 'easy/83.remove_duplicates_from_sorted_list.test.dart' as remove_duplicat
 import 'easy/88.merge_sorted_array.test.dart' as merge_sorted_array;
 import 'easy/9.palindrome_number.test.dart' as palindrome_number;
 import 'easy/94.binary_tree_inorder_traversal.test.dart' as binary_tree_inorder_traversal;
+import 'medium/131.palindrome_partitioning.test.dart' as palindrome_partitioning;
 import 'medium/22.generate_parentheses.test.dart' as generate_parentheses;
 import 'medium/3.longest_substring_without_repeating_characters.test.dart'
     as longest_substring_without_repeating_characters;
@@ -35,8 +36,6 @@ import 'medium/560.subarray_sum_equals_k.test.dart' as subarray_sum_equals_k;
 import 'medium/647.palindromic_substrings.test.dart' as palindromic_substrings;
 import 'medium/8.string_to_integer_atoi.test.dart' as string_to_integer_atoi;
 import 'medium/912.sort_an_array.test.dart' as sort_an_array;
-import 'medium/131.palindrome_partitioning.test.dart' as palindrome_partitioning;
-
 
 void main() {
   group('Solution', () {

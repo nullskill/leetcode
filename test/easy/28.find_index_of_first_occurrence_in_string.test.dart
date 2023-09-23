@@ -1,8 +1,8 @@
-import 'package:leetcode/src/easy/28.find_the_index_of_the_first_occurrence_in_a_string/main.dart';
+import 'package:leetcode/src/easy/28.find_index_of_first_occurrence_in_string/main.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('find_the_index_of_the_first_occurrence_in_a_string', () {
+  group('find_index_of_first_occurrence_in_string', () {
     final f = Solution().strStr;
 
     test('f("x", "x")', () {
@@ -32,5 +32,5 @@ void main() {
     test('f("parallelogram", "m")', () {
       expect(f('parallelogram', 'm'), 12);
     });
-  }); // group 'find_the_index_of_the_first_occurrence_in_a_string'
+  }); // group 'find_index_of_first_occurrence_in_string'
 }
