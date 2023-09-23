@@ -38,19 +38,19 @@ void main(List<String> args) {
 /// The time complexity of this variant is `O(n * k * log(k))`, where `n` is the length of
 /// the input list `strs` and `k` is the maximum length of a string in `strs`.
 
-List<List<String>> _groupAnagrams(List<String> strs) {
-  Map<String, List<String>> anagramGroups = {};
+// List<List<String>> _groupAnagrams(List<String> strs) {
+//   Map<String, List<String>> anagramGroups = {};
 
-  for (String str in strs) {
-    String sortedStr = String.fromCharCodes(str.runes.toList()..sort());
-    if (!anagramGroups.containsKey(sortedStr)) {
-      anagramGroups[sortedStr] = [];
-    }
-    anagramGroups[sortedStr]?.add(str);
-  }
+//   for (String str in strs) {
+//     String sortedStr = String.fromCharCodes(str.runes.toList()..sort());
+//     if (!anagramGroups.containsKey(sortedStr)) {
+//       anagramGroups[sortedStr] = [];
+//     }
+//     anagramGroups[sortedStr]?.add(str);
+//   }
 
-  return anagramGroups.values.toList();
-}
+//   return anagramGroups.values.toList();
+// }
 
 /// NB: The sorting variant is slower than counting the frequency of each character.
 /// However, the second algorithm may be faster than the first algorithm for inputs 

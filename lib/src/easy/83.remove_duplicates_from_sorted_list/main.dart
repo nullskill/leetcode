@@ -9,14 +9,12 @@
 
 import 'package:leetcode/src/structure/list_node.dart';
 
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *   int val;
- *   ListNode? next;
- *   ListNode([this.val = 0, this.next]);
- * }
- */
+/// Definition for singly-linked list.
+/// class ListNode {
+///   int val;
+///   ListNode? next;
+///   ListNode([this.val = 0, this.next]);
+/// }
 class Solution {
   ListNode? deleteDuplicates(ListNode? head) {
     if (head == null) return null;
