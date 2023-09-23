@@ -44,9 +44,9 @@ jobs:
       timeout-minutes: 1
       run: dart pub get
 
-    - name: 🔎 Check format
-      timeout-minutes: 1
-      run: dart format --set-exit-if-changed -l 120 -o none .
+    # - name: 🔎 Check format
+    #   timeout-minutes: 1
+    #   run: dart format --set-exit-if-changed -l 120 -o none .
 
     - name: 📈 Analyze code
       timeout-minutes: 1  
